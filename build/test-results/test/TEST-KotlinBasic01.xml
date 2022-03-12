@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="KotlinBasic01" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-09T09:21:25" hostname="jongpil-won" time="0.028">
+<testsuite name="KotlinBasic01" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-03-12T07:49:05" hostname="jongpil-won" time="0.125">
   <properties/>
-  <testcase name="생성자로 Pair만들기()" classname="KotlinBasic01" time="0.028"/>
+  <testcase name="널 할당이 불가능한 변수 선언()" classname="KotlinBasic01" time="0.047"/>
+  <testcase name="생성자로 Pair만들기()" classname="KotlinBasic01" time="0.045"/>
+  <testcase name="to로 Pair 인스턴스 생성하기()" classname="KotlinBasic01" time="0.028"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
