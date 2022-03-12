@@ -1,4 +1,5 @@
 import org.assertj.core.api.Assertions
+import org.junit.jupiter.api.Test
 
 interface IStaticHelper {
     fun foo() : String
@@ -19,7 +20,7 @@ class Caller(private val helper: IStaticHelper = StaticHelper.Companion) {
 }
 
 class CompanionObjectTest {
-    @org.junit.jupiter.api.Test
+    @Test
     fun testCallsTheHelper() {
 //        val helper = mock();
 //        val caller = Caller(helper)

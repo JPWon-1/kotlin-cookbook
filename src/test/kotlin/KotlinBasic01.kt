@@ -28,7 +28,7 @@ class KotlinBasic01 {
         val p = Person(first = "North", middle = null, last = "West")
         val middleLength = p.middle?.length;
 //        val assertMiddleLength = p.middle!!.length;// null이 아님을 단언함.
-        // !!. 문법은 꼭 필요한 경우가 아닌 경우 사용하지 말 것!
+        // ㅍ. 문법은 꼭 필요한 경우가 아닌 경우 사용하지 말 것!
         val elvisMiddleLength = p.middle?.length ?: 0
         assertEquals(middleLength, null)
         assertEquals(elvisMiddleLength, 0)
